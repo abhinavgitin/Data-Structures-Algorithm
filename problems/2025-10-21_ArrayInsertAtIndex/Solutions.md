@@ -1,8 +1,7 @@
-# Problem: <Array insert at index>
-**Platform:** <GFG>  
+# Problem: Array insert at index
+**Platform:** GFG  
 **Problem link:** <[Gfg](https://www.geeksforgeeks.org/problems/array-insert-at-index/1?page=2&sortBy=difficulty)>  
-**Date solved:** <2025-10-21>  
-**Tags:** <tag1, tag2>
+**Date solved:** 2025-10-21
 
 ---
 
@@ -18,7 +17,6 @@
 
 ## Alternate Approaches / Methods
 - this is the best approach and what i was thinking that if you have to input the data at that index andd then remove the same data that was there then you can totally use arr.remove(index) this first and then add() the value
-- 
 
 ---
 
