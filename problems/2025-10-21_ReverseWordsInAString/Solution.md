@@ -1,8 +1,7 @@
-# Problem: <This is to reverse a string keeping the words intacked>
-**Platform:** <LeetCode>  
+# Problem: This is to reverse a string keeping the words intacked
+**Platform:** LeetCode
 **Problem link:** <[Leetcode→](https://leetcode.com/problems/reverse-words-in-a-string/description/)>  
-**Date solved:** <2025-10-21>  
-**Tags:** <tag1, tag2>
+**Date solved:** 2025-10-21
 
 ---
 
