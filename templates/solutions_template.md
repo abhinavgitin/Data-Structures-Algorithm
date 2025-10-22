@@ -5,7 +5,9 @@
 **Tags:** <tag1, tag2>
 
 ---
+## What this shows and what this can be used for!
 
+---
 ## Intuition
 <Write your first thoughts or main idea here>
 
@@ -31,5 +33,6 @@
 ---
 
 ## Code
-```<language>
+```[language]
 # paste your code here
+```
