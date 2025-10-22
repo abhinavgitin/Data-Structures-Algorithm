@@ -1,7 +1,7 @@
 # Problem: Find all the numbers that are dissapered in the array
 **Platform:** LeetCode  
 **Problem link:** [Leetcode448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
-**Date solved:** <2025-10-22>  
+**Date solved:** 2025-10-22 
 
 ---
 ## What this shows and what this can be used for!
