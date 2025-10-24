@@ -1,7 +1,7 @@
 # Problem: Missing In An Array
 **Platform:** GFG
 **Problem link:**  [GFG](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&sprint=ca8ae412173dbd8346c26a0295d098fd&sortBy=difficulty)
-**Date solved:** <2025-10-24>  
+**Date solved:** 2025-10-24
 
 ---
 ## What this shows and what this can be used for!
