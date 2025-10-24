@@ -1,6 +1,6 @@
 # LeetCode & GFG Solutions
 
-Welcome to my algorithm PRACTISE repository .. a collection of short, well-documented Java solutions for LeetCode and GeeksforGeeks problems. This repo is organized by date and problem, and includes solved code, explanations, and a small template to add new problems quickly. GETS UPDATED DAILY . As I solve Dsa Problems daily!
+Welcome to my algorithm PRACTISE repository ... a collection of short, well-documented Java solutions for LeetCode and GeeksforGeeks problems. This repo is organized by date and problem, and includes solved code, explanations, and a small template to add new problems quickly. GETS UPDATED DAILY . As I solve Dsa Problems daily!
 
 ## Highlights
 
