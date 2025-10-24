@@ -1,7 +1,7 @@
-# Problem: <Problem Name>
-**Platform:** <LeetCode/GFG>  
-**Problem link:** <URL>  
-**Date solved:** <YYYY-MM-DD>  
+# Problem: 
+**Platform:** <LeetCode/GFG>
+**Problem link:** 
+**Date solved:**  
 **Tags:** <tag1, tag2>
 
 ---
@@ -9,7 +9,6 @@
 
 ---
 ## Intuition
-<Write your first thoughts or main idea here>
 
 ---
 
@@ -27,12 +26,12 @@
 ---
 
 ## Complexity
-- Time: 
-- Space: 
+- Time: O()
+- Space: O()
 
 ---
 
 ## Code
-```[language]
-# paste your code here
+```[java]
+
 ```

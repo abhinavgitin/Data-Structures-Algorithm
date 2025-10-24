@@ -13,7 +13,7 @@ class Solution {
         }
     }
     public boolean rotateString(String s, String goal) {
-        // If lengths don't match, rotation is impossible
+    
         return s.length() == goal.length() && (s + s).contains(goal);
     }
 }
