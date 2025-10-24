@@ -59,7 +59,6 @@ templates/               # templates (solutions_template.md)
 - If you submit a PR, keep commits atomic and reference the problem link.
 
 ## Notes & tips
-
 - This repo is my personal practice log. I prefer short, focused implementations and short notes.
 - If you want tests, we can add a small JUnit harness or Gradle/Maven build later.
 
