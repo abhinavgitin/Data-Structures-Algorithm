@@ -10,7 +10,7 @@ Welcome to my algorithm PRACTISE repository ..... a collection of short, well-do
 
 ## Quick start — compile & run
 
-Most solutions are plain Java files. From PowerShell you can compile and run a single solution like this:
+Most solutions are plain Java files Soon will include in C and JavaScript too. From PowerShell you can compile and run a single solution like this:
 
 ```powershell
 # compile
