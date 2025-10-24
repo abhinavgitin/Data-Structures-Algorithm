@@ -45,7 +45,7 @@ problems/                # per-problem folders (date_problemName)
 scripts/                 # helper scripts (e.g. new_problem.sh)
 templates/               # templates (solutions_template.md)
 ```
-
+- i am still learning the best way for management of files and folders .Till then this is what I can do the best
 ## How to add a new problem
 
 1. Use the `scripts/new_problem.sh` script to scaffold a new folder (or create a folder manually).
