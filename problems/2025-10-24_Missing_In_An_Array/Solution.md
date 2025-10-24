@@ -8,8 +8,7 @@
 ### IMPORTANT
 - Find the missing number
 - Find the element that appears once when others appear twice
-- Swap numbers without a temporary variable
-
+- Swap numbers without a temporary variable 
 ---
 ## Intuition
 - we can use the XOR to find the element that is left out in the given set of data
