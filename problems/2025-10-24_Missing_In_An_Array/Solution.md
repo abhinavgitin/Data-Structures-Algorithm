@@ -7,9 +7,7 @@
 ## What this shows and what this can be used for!
 ### IMPORTANT
 - Find the missing number
-
 - Find the element that appears once when others appear twice
-
 - Swap numbers without a temporary variable
 
 ---
