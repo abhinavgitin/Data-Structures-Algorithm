@@ -54,13 +54,12 @@ templates/               # templates (solutions_template.md)
 
 ## Contribution guidelines
 
-- Keep solutions focused and readable.
+- Solutions.md are for easy understanding and mainly to know for what purposes they can be used importantly!
 - Add short explanation and complexity analysis in `Solution.md` next to the code file.
-- If you submit a PR, keep commits atomic and reference the problem link.
+- the mani motive of mine was that it was difficult for me to understand that what similar topics can solve same questions or problems in the same way or with the same logic so making a organised documentation helps me where i clearly mention `what it can be used for` in the Solutions.md file
 
 ## Notes & tips
 - This repo is my personal practice log. I prefer short, focused implementations and short notes.
-- If you want tests, we can add a small JUnit harness or Gradle/Maven build later.
 
 ---
 
