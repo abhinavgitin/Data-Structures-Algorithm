@@ -62,10 +62,6 @@ templates/               # templates (solutions_template.md)
 - This repo is my personal practice log. I prefer short, focused implementations and short notes.
 - If you want tests, we can add a small JUnit harness or Gradle/Maven build later.
 
-## Contact
-
-GitHub: https://github.com/abhinavgitin/LeetCode-GFG-Solutions
-
 ---
 
 If you'd like, I can also:
