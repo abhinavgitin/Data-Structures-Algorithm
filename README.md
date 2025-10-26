@@ -34,6 +34,7 @@ Notes:
 - [2025-10-24 XOR Operation In An Array (LeetCode)](problems/2025-10-24_XOR_Operation_In_The_Array) — `2025-10-24_XOR_Operation_In_An_Array.java`
 - [2025-10-25 "Atleast Two Greater Elements" GFG](problems/2025-10-25_Atleast_Two_Greater_Elements) — `Atleast Two Greater Elements - With Streams`
 - [2025-10-25 "Reverse Degree Of A String" LeetCode](problems/2025-10-25_Reverse_Degree_Of_A_String) — `Reverse Degree of the String - ASCII seq`
+- [2025-10-26 Power of Two (LeetCode)](problems/2025-10-26_Power_Of_Two) — `2025-10-26_Power_Of_Two.java`
 
 ## Project structure
 
