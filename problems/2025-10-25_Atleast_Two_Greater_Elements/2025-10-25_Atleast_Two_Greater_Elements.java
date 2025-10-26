@@ -27,7 +27,7 @@ class Solution {
         Solution sol = new Solution();
         long[] arr = {5, 1, 3, 4, 2, 8, 2, 9, 10, 11, 11, 15};
         long[] result = sol.findElements(arr);
-        System.out.println(Arrays.toString(result)); // Output: [1, 2, 3]
+        System.out.println(Arrays.toString(result));
     }
 
     public long[] findElements(long arr[]) {
