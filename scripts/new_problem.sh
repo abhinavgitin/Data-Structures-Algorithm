@@ -9,11 +9,8 @@ LANG=$2
 # Replace spaces with underscores for folder and file names
 BASE_NAME=$(echo "$PROBLEM_NAME" | tr ' ' '_')
 
-# Get today's date
-DATE=$(date +"%Y-%m-%d")
-
-# Folder name: ProblemName_Date
-FOLDER_NAME="${BASE_NAME}_${DATE}"
+# Folder name = Problem name only (no date)
+FOLDER_NAME="${BASE_NAME}"
 
 # Path to problems directory (relative to this script)
 PROBLEMS_DIR="../problems"
