@@ -1,4 +1,4 @@
-# Problem: 
+# Problem: Reverse Degree Of A String
 **Platform:** <LeetCode/GFG>
 **Problem link:** 
 **Date solved:**  

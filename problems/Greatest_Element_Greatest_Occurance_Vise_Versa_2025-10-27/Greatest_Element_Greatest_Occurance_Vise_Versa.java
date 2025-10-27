@@ -14,7 +14,7 @@ class Greatest_Element_Greatest_Occurance_Vise_Versa {
         for (int num : arr) {
             frequency.put(num, frequency.getOrDefault(num,0) + 1);
         }
-        
+            
         int maxFrequency = Integer.MIN_VALUE;
         int minFrequency = Integer.MAX_VALUE;
             

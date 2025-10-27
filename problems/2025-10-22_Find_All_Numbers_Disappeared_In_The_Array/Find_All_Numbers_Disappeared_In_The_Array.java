@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-class Solution {
+class Find_All_Numbers_Disappeared_In_The_Array {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Find_All_Numbers_Disappeared_In_The_Array solution = new Find_All_Numbers_Disappeared_In_The_Array();
         int[] nums = {4,3,2,7,8,2,3,1};
         List<Integer> disappearedNumbers = solution.findDisappearedNumbers(nums);
         System.out.println(disappearedNumbers); // Output: [5, 6]

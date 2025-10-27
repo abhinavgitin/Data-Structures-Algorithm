@@ -22,9 +22,9 @@
 // }
 import java.util.Arrays;
 
-class Solution {
+class Atleast_Two_Greater_Elements {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Atleast_Two_Greater_Elements sol = new Atleast_Two_Greater_Elements();
         long[] arr = {5, 1, 3, 4, 2, 8, 2, 9, 10, 11, 11, 15};
         long[] result = sol.findElements(arr);
         System.out.println(Arrays.toString(result));

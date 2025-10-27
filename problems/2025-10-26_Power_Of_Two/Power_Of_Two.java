@@ -1,6 +1,6 @@
-class Solution {
+class Power_Of_Two {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Power_Of_Two sol = new Power_Of_Two();
         System.out.println(sol.isPowerOfTwo(1));
         System.out.println(sol.isPowerOfTwo(16));
         System.out.println(sol.isPowerOfTwo(3)); 

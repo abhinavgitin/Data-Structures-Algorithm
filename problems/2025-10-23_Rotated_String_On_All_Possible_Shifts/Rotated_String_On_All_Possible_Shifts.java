@@ -1,8 +1,8 @@
 import java.util.*;
 
-class Solution {
+class Rotated_String_On_All_Possible_Shifts {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Rotated_String_On_All_Possible_Shifts sol = new Rotated_String_On_All_Possible_Shifts();
         String s = "abcde";
         String goal = "cdeab";
         System.out.println(sol.rotateString(s, goal));

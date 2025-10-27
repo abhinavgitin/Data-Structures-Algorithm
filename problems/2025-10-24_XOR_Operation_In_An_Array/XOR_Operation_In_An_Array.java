@@ -1,6 +1,6 @@
-class Solution {
+class XOR_Operation_In_An_Array {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        XOR_Operation_In_An_Array sol = new XOR_Operation_In_An_Array();
         int n = 5;
         int start = 0;
         int result = sol.xorOperation(n, start);

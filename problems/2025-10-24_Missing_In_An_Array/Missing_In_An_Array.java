@@ -1,6 +1,6 @@
-class Solution {
+class Missing_In_An_Array {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Missing_In_An_Array sol = new Missing_In_An_Array();
         int[] arr = {1, 2, 4, 6, 3, 5, 7, 8, 9, 10};
         System.out.println(sol.missingNum(arr));
     }
