@@ -16,10 +16,10 @@ Example (compile + run ArrayInsertAtIndex):
 
 ```powershell
 # compile
-javac .\problems\2025-10-21_ArrayInsertAtIndex\ArrayInsertAtIndex.java
+javac .\problems\ArrayInsertAtIndex\ArrayInsertAtIndex.java
 
 # run (class name without .java)
-java -cp .\problems\2025-10-21_ArrayInsertAtIndex ArrayInsertAtIndex
+java -cp .\problems\ArrayInsertAtIndex ArrayInsertAtIndex
 ```
 
 Notes:
@@ -28,31 +28,37 @@ Notes:
 
 ## Problems (table of contents)
 
-- [2025-10-21 Array Insert At Index (GFG)](problems/2025-10-21_ArrayInsertAtIndex) — `ArrayInsertAtIndex.java`
-- [2025-10-21 Reverse Words in a String (LeetCode)](problems/2025-10-21_ReverseWordsInAString) — `ReverseWordsInAString.java`
-- [2025-10-22 Find All Numbers Disappeared In The Array (LeetCode)](problems/2025-10-22_Find_All_Numbers_Disappeared_In_The_Array) — `Find_All_Numbers_Disappeared_In_The_Array.java`
-- [2025-10-23 Rotated String On All Possible Shifts (LeetCode)](problems/2025-10-23_Rotated_String_On_All_Possible_Shifts) — `Rotated_String_On_All_Possible_Shifts.java`
-- [2025-10-24 Missing In An Array (GFG)](problems/2025-10-24_Missing_In_An_Array) — `Missing_In_An_Array.java`
-- [2025-10-24 XOR Operation In An Array (LeetCode)](problems/2025-10-24_XOR_Operation_In_An_Array) — `XOR_Operation_In_An_Array.java`
-- [2025-10-25 Atleast Two Greater Elements (GFG)](problems/2025-10-25_Atleast_Two_Greater_Elements) — `Atleast_Two_Greater_Elements.java`
-- [2025-10-25 Reverse Degree Of A String (LeetCode)](problems/2025-10-25_Reverse_Degree_Of_A_String) — `Reverse_Degree_Of_A_String.java`
-- [2025-10-26 Power of Two (LeetCode)](problems/2025-10-26_Power_Of_Two) — `2025-10-26_Power_Of_Two.java`
-- [Greatest Element / Greatest Occurrence (GFG) — 2025-10-27](problems/Greatest_Element_Greatest_Occurance_Vise_Versa_2025-10-27) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
+- [Array Insert At Index (GFG)](problems/ArrayInsertAtIndex) — `ArrayInsertAtIndex.java`
+- [Reverse Words in a String (LeetCode)](problems/ReverseWordsInAString) — `ReverseWordsInAString.java`
+- [Find All Numbers Disappeared In The Array (LeetCode)](problems/Find_All_Numbers_Disappeared_In_The_Array) — `Find_All_Numbers_Disappeared_In_The_Array.java`
+- [Rotated String On All Possible Shifts (LeetCode)](problems/Rotated_String_On_All_Possible_Shifts) — `Rotated_String_On_All_Possible_Shifts.java`
+- [Missing In An Array (GFG)](problems/Missing_In_An_Array) — `Missing_In_An_Array.java`
+- [XOR Operation In An Array (LeetCode)](problems/XOR_Operation_In_An_Array) — `XOR_Operation_In_An_Array.java`
+- [Atleast Two Greater Elements (GFG)](problems/Atleast_Two_Greater_Elements) — `Atleast_Two_Greater_Elements.java`
+- [Reverse Degree Of A String (LeetCode)](problems/Reverse_Degree_Of_A_String) — `Reverse_Degree_Of_A_String.java`
+- [Power of Two (LeetCode)](problems/Power_Of_Two) — `Power_Of_Two.java`
+- [Greatest Element / Greatest Occurrence (GFG)](problems/Greatest_Element_Greatest_Occurance_Vise_Versa) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
 
 ## Project structure
 
 ```
 README.md
-problems/                # per-problem folders (date_problemName)
-  2025-10-21_ArrayInsertAtIndex/
+problems/                # per-problem folders (problemName)
+  ArrayInsertAtIndex/
     ArrayInsertAtIndex.java
     Solutions.md
-  ... (other dated problem folders)
+  ReverseWordsInAString/
+    ReverseWordsInAString.java
+    Solution.md
+  Find_All_Numbers_Disappeared_In_The_Array/
+    Find_All_Numbers_Disappeared_In_The_Array.java
+    Solution.md
+  ... (other problem folders)
 scripts/                 # helper scripts (e.g. new_problem.sh)
 templates/               # templates (solutions_template.md)
 ```
 
-I keep problems organized by the date I solved them and a short descriptive folder name. Filenames inside the folder reflect the actual problem title (underscores replace spaces).
+I keep problems organized by per-problem folders using short descriptive folder names. Filenames inside the folder reflect the actual problem title (underscores replace spaces).
 
 ## How to add a new problem
 
