@@ -1,6 +1,6 @@
-class Solution {
+class Reverse_Degree_Of_A_String {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Reverse_Degree_Of_A_String sol = new Reverse_Degree_Of_A_String();
         // i want answers for many strings stored in an array
         String[] testStrings = {"abc", "abcd", "xyz", "hello", "z"};
         for (String s : testStrings) {
