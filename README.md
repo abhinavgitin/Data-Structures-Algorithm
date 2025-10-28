@@ -37,7 +37,9 @@ Notes:
 - [Atleast Two Greater Elements (GFG)](problems/Atleast_Two_Greater_Elements) — `Atleast_Two_Greater_Elements.java`
 - [Reverse Degree Of A String (LeetCode)](problems/Reverse_Degree_Of_A_String) — `Reverse_Degree_Of_A_String.java`
 - [Power of Two (LeetCode)](problems/Power_Of_Two) — `Power_Of_Two.java`
-- [Greatest Element / Greatest Occurrence (GFG)](problems/Greatest_Element_Greatest_Occurance_Vise_Versa) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
+- [Greatest Element / Greatest Occurrence (LeetCode)](problems/Greatest_Element_Greatest_Occurance_Vise_Versa) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
+- [How Many Ones (GFG)](problems/How_Many_Ones) — `HowManyOnes.java`
+- [Elements Less and Greaater to The Target (GFG)](problems/Elements_less_and_greater_to_the_target) — `ElementsLessAndGreater.java`
 
 ## Project structure
 
