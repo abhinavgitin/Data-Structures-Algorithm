@@ -40,7 +40,7 @@ Notes:
 - [Greatest Element / Greatest Occurrence (LeetCode)](problems/Greatest_Element_Greatest_Occurance_Vise_Versa) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
 - [How Many Ones (GFG)](problems/How_Many_Ones) — `HowManyOnes.java`
 - [Elements Less and Greaater to The Target (GFG)](problems/Elements_less_and_greater_to_the_target) — `ElementsLessAndGreater.java`
-
+- [Perfect Array (GFG)](problems/Perfect_Array) — `PerfectArrayFinalApproach.java`
 ## Project structure
 
 ```
