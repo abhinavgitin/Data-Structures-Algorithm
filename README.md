@@ -41,6 +41,8 @@ Notes:
 - [How Many Ones (GFG)](problems/How_Many_Ones) — `HowManyOnes.java`
 - [Elements Less and Greaater to The Target (GFG)](problems/Elements_less_and_greater_to_the_target) — `ElementsLessAndGreater.java`
 - [Perfect Array (GFG)](problems/Perfect_Array) — `PerfectArrayFinalApproach.java`
+- [Sum Of The Distinct Numbers (GFG)](problems/SumOfTheDistinctNumbers) — `SumOfTheDistinctNumbers.java`
+- [The_Two_Sneaky_Numbers_Of_Digitville(LeetCode)](problems/The_Two_Sneaky_Numbers_Of_Digitville) — `The_Two_Sneaky_Numbers_Of_Digitville.java`
 ## Project structure
 
 ```
