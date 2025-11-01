@@ -43,6 +43,7 @@ Notes:
 - [Perfect Array (GFG)](problems/Perfect_Array) — `PerfectArrayFinalApproach.java`
 - [Sum Of The Distinct Numbers (GFG)](problems/SumOfTheDistinctNumbers) — `SumOfTheDistinctNumbers.java`
 - [The_Two_Sneaky_Numbers_Of_Digitville(LeetCode)](problems/The_Two_Sneaky_Numbers_Of_Digitville) — `The_Two_Sneaky_Numbers_Of_Digitville.java`
+- [SearchInA2DSortedMatrix(LeetCode)](problems/SearchInA2DSortedMatrix) — `SearchInA2DSortedMatrix.java`
 ## Project structure
 
 ```
