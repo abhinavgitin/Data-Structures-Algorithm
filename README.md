@@ -26,6 +26,7 @@ Notes:
 - Some solution files include a `main` method with example inputs. If a file has no `main`, add a tiny runner or test harness to run it.
 - These commands assume you're running from the repository root in PowerShell. If you use WSL/Git Bash, use the equivalent POSIX paths or run the included bash script there.
 
+---
 ## Problems (table of contents)
 
 - [Array Insert At Index (GFG)](problems/ArrayInsertAtIndex) — `ArrayInsertAtIndex.java`
@@ -44,6 +45,10 @@ Notes:
 - [Sum Of The Distinct Numbers (GFG)](problems/SumOfTheDistinctNumbers) — `SumOfTheDistinctNumbers.java`
 - [The_Two_Sneaky_Numbers_Of_Digitville(LeetCode)](problems/The_Two_Sneaky_Numbers_Of_Digitville) — `The_Two_Sneaky_Numbers_Of_Digitville.java`
 - [SearchInA2DSortedMatrix(LeetCode)](problems/SearchInA2DSortedMatrix) — `SearchInA2DSortedMatrix.java`
+- [ReverseTheLetterInTheWords(LeetCode)](problems/ReverseTheLetterInTheWords) — `ReverseTheLetterInTheWords.java`
+- [FirstLetterOfAWord(GFG)](problems/FirstLetterOfAWord) — `FirstLetterOfAWord.java`
+
+---
 ## Project structure
 
 ```
