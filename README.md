@@ -47,7 +47,7 @@ Notes:
 - [SearchInA2DSortedMatrix(LeetCode)](problems/SearchInA2DSortedMatrix) — `SearchInA2DSortedMatrix.java`
 - [ReverseTheLetterInTheWords(LeetCode)](problems/ReverseTheLetterInTheWords) — `ReverseTheLetterInTheWords.java`
 - [FirstLetterOfAWord(GFG)](problems/FirstLetterOfAWord) — `FirstLetterOfAWord.java`
-
+- [toLowerCase(GFG)](problems/toLowerCase) — `toLowerCase.java`
 ---
 ## Project structure
 
