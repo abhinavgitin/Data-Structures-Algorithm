@@ -1,2 +1,5 @@
 local_notes/
 /.vscode/
+.idea/
+.github
+LeetCode-GFG-Solutions.iml
