@@ -48,6 +48,7 @@ Notes:
 - [ReverseTheLetterInTheWords(LeetCode)](problems/ReverseTheLetterInTheWords) — `ReverseTheLetterInTheWords.java`
 - [FirstLetterOfAWord(GFG)](problems/FirstLetterOfAWord) — `FirstLetterOfAWord.java`
 - [toLowerCase(GFG)](problems/toLowerCase) — `toLowerCase.java`
+- [findTheUniqueElement(GFG)](problems/findTheUniqueElement) — `findTheUniqueElement.java`
 ---
 ## Project structure
 
