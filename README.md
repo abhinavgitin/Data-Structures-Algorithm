@@ -49,10 +49,10 @@ Notes:
 - [FirstLetterOfAWord(GFG)](problems/FirstLetterOfAWord) — `FirstLetterOfAWord.java`
 - [toLowerCase(GFG)](problems/toLowerCase) — `toLowerCase.java`
 - [findTheUniqueElement(GFG)](problems/findTheUniqueElement) — `findTheUniqueElement.java`
--[firstLetterTwoAppearTwice(leetcode)](problems/firstLetterTwoAppearTwice) — `firstLetterTwoAppearTwice.java`
--[findTargetIndicesAfterSortingArray(Leetcode)](problems/findTargetIndicesAfterSortingArray) — `findTargetIndicesAfterSortingArray.java`
--[monotonicArray(Leetcode)](problems/monotonicArray) — `monotonicArray.java`
--[arrayLeaders(GFG)](problems/arrayLeaders) — `arrayLeaders.java`
+- [firstLetterTwoAppearTwice(leetcode)](problems/firstLetterTwoAppearTwice) — `firstLetterTwoAppearTwice.java`
+- [findTargetIndicesAfterSortingArray(Leetcode)](problems/findTargetIndicesAfterSortingArray) — `findTargetIndicesAfterSortingArray.java`
+- [monotonicArray(Leetcode)](problems/monotonicArray) — `monotonicArray.java`
+- [arrayLeaders(GFG)](problems/arrayLeaders) — `arrayLeaders.java`
 ---
 ## Project structure
 
