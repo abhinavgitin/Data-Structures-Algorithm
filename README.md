@@ -53,6 +53,8 @@ Notes:
 - [findTargetIndicesAfterSortingArray(Leetcode)](problems/findTargetIndicesAfterSortingArray) — `findTargetIndicesAfterSortingArray.java`
 - [monotonicArray(Leetcode)](problems/monotonicArray) — `monotonicArray.java`
 - [arrayLeaders(GFG)](problems/arrayLeaders) — `arrayLeaders.java`
+- [valuesPresentInAtLeastTwoArrays(LeetCode)](problems/valuesPresentInAtLeastTwoArrays) — `valuesPresentInAtLeastTwoArrays.java`
+
 ---
 ## Project structure
 
