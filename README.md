@@ -75,6 +75,32 @@ templates/               # templates (solutions_template.md)
 
 I keep problems organized by per-problem folders using short descriptive folder names. Filenames inside the folder reflect the actual problem title (underscores replace spaces).
 
+## About Solution.md Files
+
+Each problem folder contains a `Solution.md` file that documents the approach, complexity analysis, and key insights for solving the problem. These markdown files follow a consistent template to ensure clarity and make it easy to review solutions later.
+
+### Structure of Solution.md
+
+Every `Solution.md` includes the following sections:
+
+1. **Problem metadata**: Title, platform (LeetCode/GFG), problem link, date solved, and relevant tags
+2. **What this shows**: Explains the key concepts, patterns, and use cases demonstrated by the solution
+3. **Intuition**: The high-level idea behind the solution approach
+4. **Step-by-step approach**: Detailed breakdown of the algorithm with numbered steps
+5. **Alternate approaches**: Other methods considered or alternative solutions
+6. **Complexity analysis**: Time and space complexity using Big-O notation
+7. **Code**: The actual Java implementation with inline comments
+
+### Purpose
+
+These documentation files serve multiple purposes:
+- **Learning reference**: Revisit problem-solving patterns and techniques
+- **Interview prep**: Quick review of approaches and complexity trade-offs
+- **Knowledge sharing**: Help others understand the thought process behind each solution
+- **Practice tracking**: Maintain a record of problems solved with dates and platforms
+
+The template file (`templates/solutions_template.md`) provides a starting structure for new problems, ensuring consistency across all documentation.
+
 ## How to add a new problem
 
 You have two simple options: use the included bash scaffolding script (recommended if you have WSL or Git Bash) or create the folder/files manually in PowerShell.
