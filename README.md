@@ -55,6 +55,8 @@ Notes:
 - [arrayLeaders(GFG)](problems/arrayLeaders) — `arrayLeaders.java`
 - [valuesPresentInAtLeastTwoArrays(LeetCode)](problems/valuesPresentInAtLeastTwoArrays) — `valuesPresentInAtLeastTwoArrays.java`
 - [arrayConcatination(LeetCode)](problems/arrayConcatination) `arrayConcatination.java`
+- [productOfAnArray(LeetCode)](problems/productOfAnArray) `productOfAnArray.java`
+- [checkSimilarArrays(GFG)](problems/checkSimilarArrays) `checkSimilarArrays.java`
 
 ---
 ## Project structure
