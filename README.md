@@ -57,6 +57,8 @@ Notes:
 - [arrayConcatination(LeetCode)](problems/arrayConcatination) `arrayConcatination.java`
 - [productOfAnArray(LeetCode)](problems/productOfAnArray) `productOfAnArray.java`
 - [checkSimilarArrays(GFG)](problems/checkSimilarArrays) `checkSimilarArrays.java`
+- [mergeThe2DMatrix(GFG)](problems/mergeThe2DMatrix) `mergeThe2DMatrix.java`
+- [shuffleArray(LeetCode)](problems/shuffleArray) `shuffleArray.java`
 
 ---
 ## Project structure
