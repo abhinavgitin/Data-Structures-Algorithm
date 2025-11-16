@@ -59,7 +59,9 @@ Notes:
 - [checkSimilarArrays(GFG)](problems/checkSimilarArrays) `checkSimilarArrays.java`
 - [mergeThe2DMatrix(GFG)](problems/mergeThe2DMatrix) `mergeThe2DMatrix.java`
 - [shuffleArray(LeetCode)](problems/shuffleArray) `shuffleArray.java`
-
+- [maxConsecutives(GFG)](problems/maxConsecuticves) `maxConsecutives.java`
+- [maxConsecutivesOnes(LeetCode)](problems/maxConsecuticvesOnes) `maxConsecutivesOnes.java`
+- [countABlockOfElements(GFG)](problems/countABlockOfElements) `countABlockOfElements.java`
 ---
 ## Project structure
 
