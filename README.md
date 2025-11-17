@@ -1,137 +1,60 @@
-# LeetCode & GFG Solutions
+# LeetCode & GFG Solutions — Compact Java Workbook
 
-A compact, date-organized collection of short Java solutions for LeetCode and GeeksforGeeks problems. Each problem gets its own folder with the solution source and a short notes file that explains the approach and complexity. I update this daily as I practice DSA.
+This repository is a focused, hands-on notebook of Java solutions for LeetCode and GeeksforGeeks problems. Each entry is intentionally small: one source file per problem and a short markdown note describing the idea and complexity. The collection is designed for fast iteration and daily practice.
 
-## Highlights
+**Highlights**
+- **Single-file solutions:** Clear, concise Java files in `src/` you can compile and run directly.
+- **Short notes:** Human-readable explanations in `Solutions/` that accompany many solutions.
+- **Lightweight scaffolding:** Use the included `scripts/new_problem.sh` (for WSL/Git Bash) or simple PowerShell steps to add new problems.
 
-- Java-first solutions with concise, readable implementations.
-- Per-problem folder: solution source + `Solution.md` notes.
-- Small helper script and a template to scaffold new problems quickly.
-
-## Quick start — compile & run (Windows PowerShell)
-
-From the repository root you can compile and run a single solution. Use the folder and file shown in the per-problem folder when compiling.
-
-Example (compile + run ArrayInsertAtIndex):
+**Quick start — compile & run (PowerShell)**
+- From the repository root compile one solution and run it from `src/`:
 
 ```powershell
-# compile
-javac .\problems\ArrayInsertAtIndex\ArrayInsertAtIndex.java
+# compile a single solution
+javac .\src\ArrayInsertAtIndex.java
 
-# run (class name without .java)
-java -cp .\problems\ArrayInsertAtIndex ArrayInsertAtIndex
+# run the class (class name without .java)
+java -cp .\src ArrayInsertAtIndex
 ```
 
-Notes:
-- Some solution files include a `main` method with example inputs. If a file has no `main`, add a tiny runner or test harness to run it.
-- These commands assume you're running from the repository root in PowerShell. If you use WSL/Git Bash, use the equivalent POSIX paths or run the included bash script there.
+- Many files include a `main` with example inputs. If a file lacks `main`, add a small runner inside the same file to test it.
 
----
-## Problems (table of contents)
+**Project layout**
+- `src/` : Java source files, one problem per file (underscores often used in names).
+- `Solutions/` : Short markdown notes (approach, complexity, example) that pair with source files.
+- `scripts/` : Helper scripts (e.g. `new_problem.sh`) for scaffolding new problems.
+- `templates/` : Markdown templates used when creating new notes.
+- `local_notes/` and `bin/` : personal helpers and small utilities.
 
-- [Array Insert At Index (GFG)](problems/ArrayInsertAtIndex) — `ArrayInsertAtIndex.java`
-- [Reverse Words in a String (LeetCode)](problems/ReverseWordsInAString) — `ReverseWordsInAString.java`
-- [Find All Numbers Disappeared In The Array (LeetCode)](problems/Find_All_Numbers_Disappeared_In_The_Array) — `Find_All_Numbers_Disappeared_In_The_Array.java`
-- [Rotated String On All Possible Shifts (LeetCode)](problems/Rotated_String_On_All_Possible_Shifts) — `Rotated_String_On_All_Possible_Shifts.java`
-- [Missing In An Array (GFG)](problems/Missing_In_An_Array) — `Missing_In_An_Array.java`
-- [XOR Operation In An Array (LeetCode)](problems/XOR_Operation_In_An_Array) — `XOR_Operation_In_An_Array.java`
-- [Atleast Two Greater Elements (GFG)](problems/Atleast_Two_Greater_Elements) — `Atleast_Two_Greater_Elements.java`
-- [Reverse Degree Of A String (LeetCode)](problems/Reverse_Degree_Of_A_String) — `Reverse_Degree_Of_A_String.java`
-- [Power of Two (LeetCode)](problems/Power_Of_Two) — `Power_Of_Two.java`
-- [Greatest Element / Greatest Occurrence (LeetCode)](problems/Greatest_Element_Greatest_Occurance_Vise_Versa) — `Greatest_Element_Greatest_Occurance_Vise_Versa.java`
-- [How Many Ones (GFG)](problems/How_Many_Ones) — `HowManyOnes.java`
-- [Elements Less and Greaater to The Target (GFG)](problems/Elements_less_and_greater_to_the_target) — `ElementsLessAndGreater.java`
-- [Perfect Array (GFG)](problems/Perfect_Array) — `PerfectArrayFinalApproach.java`
-- [Sum Of The Distinct Numbers (GFG)](problems/SumOfTheDistinctNumbers) — `SumOfTheDistinctNumbers.java`
-- [The_Two_Sneaky_Numbers_Of_Digitville(LeetCode)](problems/The_Two_Sneaky_Numbers_Of_Digitville) — `The_Two_Sneaky_Numbers_Of_Digitville.java`
-- [SearchInA2DSortedMatrix(LeetCode)](problems/SearchInA2DSortedMatrix) — `SearchInA2DSortedMatrix.java`
-- [ReverseTheLetterInTheWords(LeetCode)](problems/ReverseTheLetterInTheWords) — `ReverseTheLetterInTheWords.java`
-- [FirstLetterOfAWord(GFG)](problems/FirstLetterOfAWord) — `FirstLetterOfAWord.java`
-- [toLowerCase(GFG)](problems/toLowerCase) — `toLowerCase.java`
-- [findTheUniqueElement(GFG)](problems/findTheUniqueElement) — `findTheUniqueElement.java`
-- [firstLetterTwoAppearTwice(leetcode)](problems/firstLetterTwoAppearTwice) — `firstLetterTwoAppearTwice.java`
-- [findTargetIndicesAfterSortingArray(Leetcode)](problems/findTargetIndicesAfterSortingArray) — `findTargetIndicesAfterSortingArray.java`
-- [monotonicArray(Leetcode)](problems/monotonicArray) — `monotonicArray.java`
-- [arrayLeaders(GFG)](problems/arrayLeaders) — `arrayLeaders.java`
-- [valuesPresentInAtLeastTwoArrays(LeetCode)](problems/valuesPresentInAtLeastTwoArrays) — `valuesPresentInAtLeastTwoArrays.java`
-- [arrayConcatination(LeetCode)](problems/arrayConcatination) `arrayConcatination.java`
-- [productOfAnArray(LeetCode)](problems/productOfAnArray) `productOfAnArray.java`
-- [checkSimilarArrays(GFG)](problems/checkSimilarArrays) `checkSimilarArrays.java`
-- [mergeThe2DMatrix(GFG)](problems/mergeThe2DMatrix) `mergeThe2DMatrix.java`
-- [shuffleArray(LeetCode)](problems/shuffleArray) `shuffleArray.java`
-- [maxConsecutives(GFG)](problems/maxConsecuticves) `maxConsecutives.java`
-- [maxConsecutivesOnes(LeetCode)](problems/maxConsecuticvesOnes) `maxConsecutivesOnes.java`
-- [countABlockOfElements(GFG)](problems/countABlockOfElements) `countABlockOfElements.java`
----
-## Project structure
-
-```
-README.md
-problems/                # per-problem folders (problemName)
-  ArrayInsertAtIndex/
-    ArrayInsertAtIndex.java
-    Solutions.md
-  ReverseWordsInAString/
-    ReverseWordsInAString.java
-    Solution.md
-  Find_All_Numbers_Disappeared_In_The_Array/
-    Find_All_Numbers_Disappeared_In_The_Array.java
-    Solution.md
-  ... (other problem folders)
-scripts/                 # helper scripts (e.g. new_problem.sh)
-templates/               # templates (solutions_template.md)
-```
-
-I keep problems organized by per-problem folders using short descriptive folder names. Filenames inside the folder reflect the actual problem title (underscores replace spaces).
-
-## How to add a new problem
-
-You have two simple options: use the included bash scaffolding script (recommended if you have WSL or Git Bash) or create the folder/files manually in PowerShell.
-
-Option A — use the scaffolding script (WSL/Git Bash):
-
-- From Git Bash or WSL run:
+**Add a new problem**
+- Recommended (WSL/Git Bash):
 
 ```bash
-# example: create a Java problem called "Add Element"
-./scripts/new_problem.sh "Add Element" java
+./scripts/new_problem.sh "Problem Name" java
 ```
 
-If you are on Windows PowerShell and have WSL installed you can run the same script via WSL:
+- Manual (PowerShell):
 
 ```powershell
-wsl ./scripts/new_problem.sh "Add Element" java
+# create folder and copy template
+# create new files manually
+Copy-Item .\templates\solutions_template.md .\Solutions\My_New_Problem.md
+New-Item -ItemType File -Path .\src\My_New_Problem.java
 ```
 
-Option B — create manually in PowerShell (no WSL):
+- After scaffolding: implement the Java solution in `src/`, add a `main` runner if needed, and add a brief note in `Solutions/`.
 
-```powershell
-# make folder
-New-Item -ItemType Directory -Path .\problems\"2025-10-27_My_New_Problem"
+**Guidelines**
+- Keep solutions compact and readable — prefer clarity over cleverness.
+- `Solutions/` notes should contain: problem statement, core idea, complexity (time/space), and one example.
+- Use underscores in filenames where spaces would appear (consistent naming convention).
 
-# copy template markdown
-Copy-Item .\templates\solutions_template.md .\problems\"2025-10-27_My_New_Problem\Solution.md"
+**Example files in this repo**
+- Representative Java files live in `src/` (for example: `ArrayInsertAtIndex.java`, `ReverseWordsInAString.java`, `Find_All_Numbers_Disappeared_In_The_Array.java`).
+- Corresponding notes are in `Solutions/` (for example: `ArrayInsertAtIndex.md`, `ReverseWordsInAString.md`).
 
-# create code file
-New-Item -ItemType File -Path .\problems\"2025-10-27_My_New_Problem\My_New_Problem.java"
-```
-
-Checklist after scaffolding:
-- Add the Java solution in the code file and a concise `Solution.md` with approach and complexity.
-- Add a `main` method or a small runner so the class can be run directly.
-- Use underscores in filenames (consistent with repo style) to replace spaces.
-
-## Contribution guidelines
-
-- Keep `Solution.md` concise: problem statement, idea, complexity (time/space), and one short example.
-- Prefer readable, well-named local variables and short methods.
-
-## Notes & tips
-
-- This repo is my personal practice log. Implementations are intentionally compact for learning.
-- If you'd like, I can also:
-	- add badges (build / code style),
-	- add a simple Gradle or Maven wrapper to compile/run all problems, or
-	- add a CI workflow that runs lint/tests.
-
-Pick one and I can implement it next.
+If you'd like, I can do one of the following next:
+- add an automated compile/run helper (PowerShell script) to run many examples,
+- scaffold a new problem with a complete runner and notes, or
+- add a minimal CI action that compiles every Java file.
