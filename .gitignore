@@ -1,4 +1,6 @@
 local_notes/
 /.vscode/
 .github
-bin/
+bin/out/
+*.class
+.vscode/
