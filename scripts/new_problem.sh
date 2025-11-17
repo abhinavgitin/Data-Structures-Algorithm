@@ -1,47 +1,41 @@
 #!/bin/bash
 
-# Usage: ./new_problem.sh "<Problem Name>" <Language>
-# Example: ./new_problem.sh "Add Element" java
+# Usage: ./new_problem.sh "Array Leaders"
+# This script will:
+# 1. Create a .java file inside src/
+# 2. Create a .md solution file inside Solutions/
+# 3. Auto-insert the template into the .md file
+# 4. Auto-add the link to the Java code
 
-PROBLEM_NAME=$1
-LANG=$2
+PROBLEM_NAME="$1"
 
-# Replace spaces with underscores for folder and file names
+if [ -z "$PROBLEM_NAME" ]; then
+  echo "❌ Error: Please provide a problem name."
+  echo "Usage: ./new_problem.sh \"Array Leaders\""
+  exit 1
+fi
+
+# Convert spaces → underscores for filenames
 BASE_NAME=$(echo "$PROBLEM_NAME" | tr ' ' '_')
 
-# Folder name = Problem name only (no date)
-FOLDER_NAME="${BASE_NAME}"
+# Paths
+SRC_DIR="../src"
+SOL_DIR="../Solutions"
+TEMPLATE_FILE="../templates/solutions_template.md"
 
-# Path to problems directory (relative to this script)
-PROBLEMS_DIR="../problems"
+JAVA_FILE="$SRC_DIR/${BASE_NAME}.java"
+MD_FILE="$SOL_DIR/${BASE_NAME}.md"
 
-# Create the folder
-mkdir -p "$PROBLEMS_DIR/$FOLDER_NAME"
+# 1. Create Java file
+touch "$JAVA_FILE"
 
-# Copy the markdown template
-cp ../templates/solutions_template.md "$PROBLEMS_DIR/$FOLDER_NAME/Solution.md"
+# 2. Copy markdown template
+cp "$TEMPLATE_FILE" "$MD_FILE"
 
-# Create an empty code file based on language
-case $LANG in
-  java)
-    touch "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.java"
-    ;;
-  cpp)
-    touch "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.cpp"
-    ;;
-  py)
-    touch "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.py"
-    ;;
-  js)
-    touch "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.js"
-    ;;
-  *)
-    echo "Language not supported. Creating a .txt file instead."
-    touch "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.txt"
-    ;;
-esac
+# 3. Insert the Java link at the top of the MD file
+JAVA_LINK="../src/${BASE_NAME}.java"
+sed -i "1s|^|## Code\n[View Java Code](${JAVA_LINK})\n\n|" "$MD_FILE"
 
-echo "✅ Folder and files created successfully:"
-echo "📁 $PROBLEMS_DIR/$FOLDER_NAME"
-echo "├── $(basename "$PROBLEMS_DIR/$FOLDER_NAME/$BASE_NAME.$LANG")"
-echo "└── Solution.md"
+echo "✅ New problem created successfully!"
+echo "📄 Java File: $JAVA_FILE"
+echo "📝 Markdown: $MD_FILE"
