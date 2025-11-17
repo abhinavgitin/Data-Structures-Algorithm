@@ -1,4 +1,4 @@
-package problems.arrayConcatination;
+package arrayConcatination;
 public class arrayConcatination {
     public static void main(String[] args) {
         arrayConcatination ac = new arrayConcatination();
