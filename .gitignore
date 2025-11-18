@@ -4,3 +4,5 @@ local_notes/
 bin/out/
 *.class
 .vscode/
+LeetCode-GFG-Solutions.iml
+.idea/
