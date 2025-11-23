@@ -1,4 +1,4 @@
-# LeetCode & GFG Solutions — Compact Java Workbook
+# LeetCode & GFG Solutions Compact Java Workbook
 
 This repository is a focused, hands-on notebook of Java solutions for LeetCode and GeeksforGeeks problems. Each entry is intentionally small: one source file per problem and a short markdown note describing the idea and complexity. The collection is designed for fast iteration and daily practice.
 
