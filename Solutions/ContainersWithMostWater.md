@@ -188,3 +188,5 @@ Output: 17 (indices 4 and 5, width=1, height=17)
 **Tags:** `Two Pointers` `Greedy` `Array` `Medium`
 
 **Similar Problems:** Trapping Rain Water, 3Sum
+
+![Visualize this](../assets/ContainersWithMostWater/WhatsApp%20Image%202025-11-23%20at%2023.39.46_3b2b8f43.jpg)
