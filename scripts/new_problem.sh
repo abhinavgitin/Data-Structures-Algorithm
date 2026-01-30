@@ -41,7 +41,7 @@ CODE_PATH="$SRC_DIR/${BASE_NAME}.${EXT}"
 MD_PATH="$SOL_DIR/${BASE_NAME}.md"
 
 # Ask platform interactively
-echo "Enter platform (LeetCode/GFG): "
+echo "Enter platform (LeetCode/GFG/Codeforces): "
 read PLATFORM
 
 # Auto date
@@ -56,7 +56,7 @@ cp "$TEMPLATE" "$MD_PATH"
 # Insert auto-fields into markdown
 # (Problem title, platform, date)
 sed -i "s|# Problem:  enter this|# Problem:  $PROBLEM_NAME|" "$MD_PATH"
-sed -i "s|<LeetCode/GFG>|$PLATFORM|" "$MD_PATH"
+sed -i "s|<LeetCode/GFG/Codeforces>|$PLATFORM|" "$MD_PATH"
 sed -i "s|Date solved:|Date solved: $DATE|" "$MD_PATH"
 
 # Insert code link
