@@ -1,5 +1,5 @@
 # Problem:  enter this
-**Platform:** <LeetCode/GFG>
+**Platform:** <LeetCode/GFG/Codeforces>
 **Problem link:** 
 **Date solved:**  
 **Tags:** <tag1, tag2>
