@@ -54,7 +54,3 @@ New-Item -ItemType File -Path .\src\My_New_Problem.java
 - Representative Java files live in `src/` (for example: `ArrayInsertAtIndex.java`, `ReverseWordsInAString.java`, `Find_All_Numbers_Disappeared_In_The_Array.java`).
 - Corresponding notes are in `Solutions/` (for example: `ArrayInsertAtIndex.md`, `ReverseWordsInAString.md`).
 
-If you'd like, I can do one of the following next:
-- add an automated compile/run helper (PowerShell script) to run many examples,
-- scaffold a new problem with a complete runner and notes, or
-- add a minimal CI action that compiles every Java file.
