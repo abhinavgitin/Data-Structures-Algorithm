@@ -1,7 +1,7 @@
 local_notes/
 /.vscode/
 .github
-bin/out/
+bin/
 *.class
 .vscode/
 LeetCode-GFG-Solutions.iml
