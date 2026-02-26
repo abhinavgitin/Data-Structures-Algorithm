@@ -1,56 +1,86 @@
-# LeetCode & GFG Solutions Compact Java Workbook
+# LeetCode & GFG Solutions
 
-This repository is a focused, hands-on notebook of Java solutions for LeetCode and GeeksforGeeks problems. Each entry is intentionally small: one source file per problem and a short markdown note describing the idea and complexity. The collection is designed for fast iteration and daily practice.
+A personal DSA practice repository containing Java (and some C) solutions to problems from **LeetCode**, **GeeksforGeeks (GFG)**, and **Codeforces**. Each problem has a single source file and an optional markdown note covering the approach and complexity. The goal is daily practice with clean, readable code.
 
-**Highlights**
-- **Single-file solutions:** Clear, concise Java files in `src/` you can compile and run directly.
-- **Short notes:** Human-readable explanations in `Solutions/` that accompany many solutions.
-- **Lightweight scaffolding:** Use the included `scripts/new_problem.sh` (for WSL/Git Bash) or simple PowerShell steps to add new problems.
+---
 
-**Quick start — compile & run (PowerShell)**
-- From the repository root compile one solution and run it from `src/`:
+## Repository Layout
 
-```powershell
-# compile a single solution
-javac .\src\ArrayInsertAtIndex.java
-
-# run the class (class name without .java)
-java -cp .\src ArrayInsertAtIndex
+```
+src/          – Source files, one file per problem (Java or C)
+Solutions/    – Markdown notes paired with source files
+scripts/      – Shell script to scaffold a new problem quickly
+templates/    – Markdown template used when generating new notes
+assets/       – Visual aids (images) for selected solution notes
 ```
 
-- Many files include a `main` with example inputs. If a file lacks `main`, add a small runner inside the same file to test it.
+- **`src/`** holds ~90 Java files and a handful of C files. Filenames mirror the problem name (spaces replaced with underscores).
+- **`Solutions/`** holds ~90 markdown notes. Each note follows a consistent template: problem link, intuition, step-by-step approach, alternate approaches, and time/space complexity.
+- **`assets/`** stores images referenced inside certain solution notes (diagrams, screenshots of accepted outputs).
 
-**Project layout**
-- `src/` : Java source files, one problem per file (underscores often used in names).
-- `Solutions/` : Short markdown notes (approach, complexity, example) that pair with source files.
-- `scripts/` : Helper scripts (e.g. `new_problem.sh`) for scaffolding new problems.
-- `templates/` : Markdown templates used when creating new notes.
-- `local_notes/` and `bin/` : personal helpers and small utilities.
+---
 
-**Add a new problem**
-- Recommended (WSL/Git Bash):
+## Workflow
 
+### Adding a new problem
+
+**Recommended – WSL / Git Bash:**
 ```bash
-./scripts/new_problem.sh "Problem Name" java
+cd scripts
+./new_problem.sh "Problem Name" java   # or: c | cpp | js
 ```
+The script:
+1. Creates `src/Problem_Name.java` (empty, ready to code in).
+2. Copies `templates/solutions_template.md` → `Solutions/Problem_Name.md`.
+3. Pre-fills the note with the problem title, platform you enter interactively, and today's date.
 
-- Manual (PowerShell):
-
+**Manual – PowerShell:**
 ```powershell
-# create folder and copy template
-# create new files manually
 Copy-Item .\templates\solutions_template.md .\Solutions\My_New_Problem.md
 New-Item -ItemType File -Path .\src\My_New_Problem.java
 ```
 
-- After scaffolding: implement the Java solution in `src/`, add a `main` runner if needed, and add a brief note in `Solutions/`.
+After scaffolding, implement the solution in `src/` and fill in the note in `Solutions/`.
 
-**Guidelines**
-- Keep solutions compact and readable — prefer clarity over cleverness.
-- `Solutions/` notes should contain: problem statement, core idea, complexity (time/space), and one example.
-- Use underscores in filenames where spaces would appear (consistent naming convention).
+### Compiling & running a Java solution
+```powershell
+javac .\src\SolutionName.java
+java -cp .\src SolutionName
+```
+Most files include a `main` method with sample inputs so you can test them immediately.
 
-**Example files in this repo**
-- Representative Java files live in `src/` (for example: `ArrayInsertAtIndex.java`, `ReverseWordsInAString.java`, `Find_All_Numbers_Disappeared_In_The_Array.java`).
-- Corresponding notes are in `Solutions/` (for example: `ArrayInsertAtIndex.md`, `ReverseWordsInAString.md`).
+---
+
+## Solution Note Structure
+
+Every note in `Solutions/` follows this template:
+
+| Section | What it contains |
+|---|---|
+| **Problem** | Title, platform, link, date solved, tags |
+| **What this shows** | Key concept or technique the problem demonstrates |
+| **Intuition** | High-level idea behind the solution |
+| **Approach** | Numbered step-by-step walkthrough |
+| **Alternate Approaches** | Other valid methods and trade-offs |
+| **Complexity** | Time and Space in Big-O notation |
+| **Code** | Inline code block (mirrors the file in `src/`) |
+
+---
+
+## Platforms Covered
+
+| Platform | Type of problems |
+|---|---|
+| LeetCode | Arrays, Strings, Two Pointers, Math, Sorting, Matrix |
+| GeeksforGeeks | Arrays, Strings, Searching, Basic Data Structures |
+| Codeforces | Competitive / logic puzzles |
+
+---
+
+## Guidelines
+
+- One problem per file; filenames use underscores where a space would appear.
+- Keep solutions compact — prefer clarity over cleverness.
+- Always fill in the complexity section of the note.
+- For problems with visual explanations, store images under `assets/<ProblemName>/` and reference them at the bottom of the note.
 
