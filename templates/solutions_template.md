@@ -32,6 +32,6 @@
 ---
 
 ## Code
-```[java]
+``` name_of_the_language []
 
 ```
