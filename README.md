@@ -1,19 +1,19 @@
 <div align="center">
 
-<!-- Animated dark hero banner -->
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,100:2b1055&height=190&section=header&text=Problem Solving%20Control%20Room&fontSize=38&fontColor=E6EDF3&animation=twinkling&fontAlignY=35"
-  width="100%"
-  alt="Problem Solving Control Room Banner"
-/>
-
+<!-- Hero banner -->
+<p align="center">
+  <img
+    src="./assets/README-assets/hero-banner.svg"
+    width="100%"
+    alt="Problem Solving Control Room"
+  />
+</p>
 <!-- Typing line (fast + lightweight) -->
 <img
   src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2400&pause=850&color=9BE9A8&center=true&vCenter=true&width=820&lines=LeetCode+%E2%80%A2+Codeforces+%E2%80%A2+GeeksforGeeks;Patterns+over+memorization.;Clean+logic.+Reusable+thinking.+Daily+grind.;Consistency+beats+intensity.;Solve+%E2%86%92+Review+%E2%86%92+Repeat.;Clarity+is+a+feature.;One+pattern+at+a+time.;Small+commits.+Clean+diffs."
   alt="Typing SVG"
 />
 
-<br/>
 
 <!-- Quick nav -->
 &nbsp;•&nbsp;
@@ -25,8 +25,8 @@
 &nbsp;•&nbsp;
 <a href="#features">Features</a>
 
-<br/><br/>
-
+<img width="100%" height="1" alt="divider" src="https://github.com/andreasbm/readme/raw/master/assets/lines/colored.png" />
+<br></br>
 <!-- Repo telemetry badges -->
 <a href="https://github.com/abhinavgitin/LeetCode-GFG-Solutions">
   <img alt="Repo" src="https://img.shields.io/badge/Repo-LeetCode--GFG--Solutions-0b1020?style=for-the-badge&labelColor=0b1020&color=2b1055" />
@@ -89,12 +89,7 @@
 
 </div>
 
-> “Waste no more time thinking what a clean code should be, Write ONE<!-- Repo-only daily grind graph -->
-<img
-  width="100%"
-  alt="Daily additions (this repo)"
-  src="https://repobeats.axiom.co/api/embed/e4532de96bf09e3d91a1a08712dc69670bf6fa8b.svg"
-/>”
+> **Waste no more time thinking what clean code should be. Write One.**
 
 <!-- subtle divider -->
 <img width="100%" height="1" alt="divider" src="https://github.com/andreasbm/readme/raw/master/assets/lines/colored.png" />
@@ -122,7 +117,7 @@
 
 <!-- minimal, repo-specific emphasis -->
 - **Primary:** Java
-- **Also used:** C / C++
+- **Also used:** C
 - **Occasional:** Python / JavaScript (when useful for speed or experiments)
 
 ---
