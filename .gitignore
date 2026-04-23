@@ -6,3 +6,4 @@ bin/
 .vscode/
 LeetCode-GFG-Solutions.iml
 .idea/
+out/
