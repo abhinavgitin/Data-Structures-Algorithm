@@ -125,9 +125,9 @@ cd scripts
 
 ## Approach
 
-- **Document > just solving**  it's better to document the part we do.
+- **Document > just solving** It's better to document what we do.
 - **Step-by-step** thinking, kept for future reference.
-- **Future use**  coding is rarely clean; we revisit, copy, and adapt.
+- **Future use** Coding is rarely clean; we revisit, copy, and adapt.
 
 ---
 
