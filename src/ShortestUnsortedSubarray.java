@@ -1,5 +1,9 @@
-class Solution {
-    public int shortestUnorderedSubarray(int arr[]) {
+class ShortestUnsortedSubarray {
+    static void main() {
+        int[] arr = {1,2,3,4,5,6,8,9,9,1,1,2,4,5,6,77,7,7,5,4,2,2,1,1,1};
+        System.out.println(shortestUnorderedSubarray(arr));
+    }
+    public static int shortestUnorderedSubarray(int[] arr) {
         // Code Here
         int len = arr.length;
         
