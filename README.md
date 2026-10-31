@@ -76,7 +76,7 @@
 <br/><br/>
 
 <!-- Quick visual stack -->
-<img alt="Tech stack" src="https://skillicons.dev/icons?i=java,c,python,javascript&theme=dark" />
+<img alt="Tech stack" src="https://skillicons.dev/icons?i=java,c,python,cpp,javascript&theme=dark" />
 
 </div>
 
